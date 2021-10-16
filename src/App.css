@@ -1,0 +1,89 @@
+.flex{
+  display: flex;
+}
+header{
+  padding: 5px;
+  align-items: center;
+  border-bottom: 1.5px solid rgb(185, 182, 182);
+}
+#menubtn{
+  margin-left:10px ;
+  padding: 12px;
+  border-radius: 100px;
+}
+button{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+} 
+button:hover{
+  background-color: rgb(224, 220, 220);
+}
+#appname{
+  margin: 5px 0px 5px 5px;
+  font-size: 24px;
+  color: rgb(78, 76, 76);
+} 
+#applogo{
+  margin-left: 20px;
+}
+#search-section{
+  margin-left:7%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: hsl(270, 6%, 94%);
+}
+#search-area{
+  width: 35vw;
+  background-color: inherit;
+  border: none;
+}
+input:focus{
+  outline: none;
+} 
+#search-section:focus-within{
+  box-shadow: 4px 4px 5px rgb(168, 164, 164);
+  background-color: white;
+}
+
+
+.search-icon{
+  margin-right: 1vw;
+}
+
+.profile{
+position: absolute;
+right: 2vw;
+}
+  
+#nav-option-container{
+  position: absolute;
+  right: 10vw;
+}
+.nav-option{
+  margin: 0 0.5vw 0 0.5vw;
+  padding: 5px;
+  border-radius: 50px;
+}
+@media screen and (max-width:600px){
+  #search-area{
+    display: none;
+  }
+}
+
+.body{
+  display: flex;
+}
+.sidebar-container{
+  width: 20% ;
+  height: 100vh;
+  border-right: 1px solid grey;
+}
+.main-container{
+  width: 80%;
+  height: 100vh;
+}

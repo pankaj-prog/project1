@@ -1,0 +1,19 @@
+.sidebar-container{
+    margin-top: 7px;
+}
+.note-type{
+    color: rgb(27, 27, 27);
+    width: auto;
+    padding: 15px 10px;
+    font-weight: 500;
+    display: flex;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.note-type:hover{
+    background-color: rgb(224, 220, 220);
+}
+.note-type-icon{
+    margin-right: 2vw;
+    margin-left: 0.8vw;
+}
